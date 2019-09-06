@@ -5,7 +5,6 @@ library("tidyr")
 library("dplyr")
 library("ggplot2")
 
-
 # 1. GET DATA -------------------------------------------------------------
 
 Data_1 <- list()

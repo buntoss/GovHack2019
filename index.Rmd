@@ -1,7 +1,6 @@
 ---
 title: "GovHack2019"
 author: "Sean, Vic, Tylor, Roger, Pegah"
-date: "`r format(Sys.time(), '%Y / %m / %y')`"
 output: html_document
 ---
 
