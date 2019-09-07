@@ -113,7 +113,7 @@ Analysis$Plots$Attributes_Insolvency_by_Job_n_State <- Analysis$Tables$Attribute
   filter(n > 2500) %>%
   ggplot(aes(x = `Debtor Occupation Name (ANZSCO)`, y = n, fill = `State of Debtor`)) +
   geom_bar(stat = 'identity') +
-  labs(title = "Number of Insolvency Reports by Jobs for each State", y = "Number of Reports") +
+  labs(title = "Jobs with over 2500 Insolvency Reports", y = "Number of Reports") +
   theme(plot.title = element_text(hjust = 0.5),
         axis.text.x = element_text(angle = 45, hjust = 1)) 
 
