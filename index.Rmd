@@ -5,6 +5,13 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+# define paths for working direcotires (http://www.randigriffin.com/2017/04/25/how-to-knit-for-mysite.html)
+MarkdownConfig <- list()
+MarkdownConfig$base.dir <- "C:/Users/Buntoss/Documents/GitHub/GovHack2019"
+MarkdownConfig$base.url <- "/"
+
+# this is where figures will be sent
+knitr::opts_knit$set(base.url = MarkdownConfig$base.url)
 knitr::opts_chunk$set(echo = TRUE, message = TRUE, warning = FALSE)
 source('ATO_Snapshot_table_7_analysis.R')
 ```
@@ -12,7 +19,7 @@ source('ATO_Snapshot_table_7_analysis.R')
 ### Chart A
 
 ```{r fig.height=3}
-Data_4$ATO_Snapshot_table_7B_state_avgTaxIncome_plot
+Analysis$Plots$ATO_Snapshot_table_7B_state_avgTaxIncome
 
 ```
 
@@ -20,8 +27,7 @@ Data_4$ATO_Snapshot_table_7B_state_avgTaxIncome_plot
 ### Chart B
 
 ```{r fig.height=3}
-
-Data_4$ATO_Snapshot_table_7B_state_medTaxIncome_plot
+Analysis$Plots$ATO_Snapshot_table_7B_state_medTaxIncome
 
 ```
 
@@ -29,16 +35,14 @@ Data_4$ATO_Snapshot_table_7B_state_medTaxIncome_plot
 ### Chart C
 
 ```{r fig.height=3}
-
-Data_4$ATO_Snapshot_table_7B_state_AusRankDesc_plot
+Analysis$Plots$ATO_Snapshot_table_7B_state_AusRankDesc
 
 ```
 
 ### Chart C
 
 ```{r fig.height=3}
-
-Data_4$ATO_Snapshot_table_7B_state_NumberOfIndividuals_plot
+Analysis$Plots$ATO_Snapshot_table_7B_state_NumberOfIndividuals
 
 ```
 
