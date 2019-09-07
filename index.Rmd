@@ -6,43 +6,62 @@ output: html_document
 
 ```{r setup, include=FALSE}
 # define paths for working direcotires (http://www.randigriffin.com/2017/04/25/how-to-knit-for-mysite.html)
-MarkdownConfig <- list()
-MarkdownConfig$base.dir <- "C:/Users/Buntoss/Documents/GitHub/GovHack2019"
-MarkdownConfig$base.url <- "/"
-
-# this is where figures will be sent
-knitr::opts_knit$set(base.url = MarkdownConfig$base.url)
-knitr::opts_chunk$set(echo = TRUE, message = TRUE, warning = FALSE)
-source('ATO_Snapshot_table_7_analysis.R')
+knitr::opts_knit$set(base.dir = "C:/Users/Buntoss/Documents/GitHub/GovHack2019",
+                     base.url = "/")
+knitr::opts_chunk$set(fig.path = "plots/",
+  echo = FALSE, message = FALSE, warning = FALSE)
+source('Attributes_Insolvent_Debtors_analysis.R')
 ```
 
-### Chart A
+## Analysis of Insolvency Reports by State
 
 ```{r fig.height=3}
-Analysis$Plots$ATO_Snapshot_table_7B_state_avgTaxIncome
+Analysis$Plots$Attributes_Insolvency_by_State
 
 ```
 
+```{r fig.height=5}
+Analysis$Plots$Attributes_Insolvency_by_State_n_Assets
 
-### Chart B
+```
+
+```{r fig.height=5}
+Analysis$Plots$Attributes_Insolvency_by_State_n_Debts
+
+```
 
 ```{r fig.height=3}
-Analysis$Plots$ATO_Snapshot_table_7B_state_medTaxIncome
+Analysis$Plots$Attributes_Insolvency_by_State_n_Gender
 
 ```
-
-
-### Chart C
 
 ```{r fig.height=3}
-Analysis$Plots$ATO_Snapshot_table_7B_state_AusRankDesc
+Analysis$Plots$Attributes_Insolvency_by_State_n_Situation
 
 ```
 
-### Chart C
+## Analysis of Insolvency Reports by SA3
 
 ```{r fig.height=3}
-Analysis$Plots$ATO_Snapshot_table_7B_state_NumberOfIndividuals
+Analysis$Plots$Attributes_Insolvency_by_SA3
 
 ```
 
+```{r fig.height=3}
+Analysis$Plots$Attributes_Insolvency_by_SA3_n_State
+
+```
+
+## Analysis of Insolvency Reports by Over Time
+
+```{r fig.height=3}
+Analysis$Plots$Attributes_Insolvency_by_Year_n_State
+
+```
+
+## Analysis of Insolvency Reports by Jobs
+
+```{r fig.height=5}
+Analysis$Plots$Attributes_Insolvency_by_Job_n_State
+
+```

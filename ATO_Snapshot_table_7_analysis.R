@@ -21,7 +21,7 @@ if(exists("Analysis") != TRUE) {
 }
 
 Data_2$ATO_Snapshot_table_7B_state_summary <- Data_2$ATO_Snapshot_table_7B %>%
-  filter(`Top or bottom` == "Top") %>%
+  filter(`Top or bottom` == "Bottom") %>%
   group_by(State = `State/ Territory1`) %>%
   summarise(`Individuals no.` = sum(`Individuals\r\nno.`),
             `Average taxable income or loss` = sum(`Average taxable income or loss3\r\n$`),
@@ -55,26 +55,19 @@ Analysis$Plots$ATO_Snapshot_table_7B_state_avgTaxIncome <- Analysis$Tables$ATO_S
   filter(variable == "Average taxable income or loss") %>%
   ggplot(aes(x = State, y = value)) +
   geom_bar(stat = 'identity') +
-  labs(title = "Analysis of top 10 post codes per state, based on average taxable income ", y = "Avg Taxable Income ($)") +
+  labs(title = "Bottom 10 Postcodes per State based on Avg Taxable Income", y = "Avg Taxable Income ($)") +
   theme(plot.title = element_text(hjust = 0.5))
 
 Analysis$Plots$ATO_Snapshot_table_7B_state_medTaxIncome <- Analysis$Tables$ATO_Snapshot_table_7B_state_summary_gathered %>%
   filter(variable == "Median taxable income or loss") %>%
   ggplot(aes(x = State, y = value)) +
   geom_bar(stat = 'identity') +
-  labs(title = "Analysis of top 10 post codes per state, based on average taxable income ", y = "Median Taxable Income ($)") +
-  theme(plot.title = element_text(hjust = 0.5))
-
-Analysis$Plots$ATO_Snapshot_table_7B_state_AusRankDesc <- Analysis$Tables$ATO_Snapshot_table_7B_state_summary_gathered %>%
-  filter(variable == "Australian rank descending") %>%
-  ggplot(aes(x = State, y = value)) +
-  geom_bar(stat = 'identity') +
-  labs(title = "Analysis of top 10 post codes per state, based on average taxable income ", y = "Aus Rank Desc") +
+  labs(title = "Bottom 10 Postcodes per State based on Mediann Taxable Income", y = "Median Taxable Income ($)") +
   theme(plot.title = element_text(hjust = 0.5))
 
 Analysis$Plots$ATO_Snapshot_table_7B_state_NumberOfIndividuals <- Analysis$Tables$ATO_Snapshot_table_7B_state_summary_gathered %>%
   filter(variable == "Individuals no.") %>%
   ggplot(aes(x = State, y = value)) +
   geom_bar(stat = 'identity') +
-  labs(title = "Analysis of top 10 post codes per state, based on average taxable income ", y = "No. of Individuals") +
+  labs(title = "Bottom 10 Postcodes per State Number of Individuals", y = "No. of Individuals") +
   theme(plot.title = element_text(hjust = 0.5))
