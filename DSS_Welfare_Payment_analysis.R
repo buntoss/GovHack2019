@@ -9,7 +9,7 @@ library("ggplot2")
 
 Data_1 <- list()
 
-Data_1$DSS_Welfare_Payments_March2014 <- read_csv("_data/DSS_Welfare_Payments_March2014.csv")
+Data_1$DSS_Welfare_Payments_March2014 <- read_csv("data/DSS_Welfare_Payments_March2014.csv")
 
 # 2. CLEAN DATA ------------------------------------------------------------
 

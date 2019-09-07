@@ -9,8 +9,8 @@ library("ggplot2")
 
 Data_1 <- list()
 
-Data_1$ATO_Snapshot_table_7B <- read_csv("_data/ATO_Snapshot_table_7_data/ATO_Snapshot_table_7B.csv")
-Data_1$ATO_Snapshot_table_7C <- read_csv("_data/ATO_Snapshot_table_7_data/ATO_Snapshot_table_7C.csv")
+Data_1$ATO_Snapshot_table_7B <- read_csv("data/ATO_Snapshot_table_7_data/ATO_Snapshot_table_7B.csv")
+Data_1$ATO_Snapshot_table_7C <- read_csv("data/ATO_Snapshot_table_7_data/ATO_Snapshot_table_7C.csv")
 
 # 2. CLEAN DATA ------------------------------------------------------------
 
