@@ -6,8 +6,8 @@ output: html_document
 
 ```{r setup, include=FALSE}
 # define paths for working direcotires (http://www.randigriffin.com/2017/04/25/how-to-knit-for-mysite.html)
-knitr::opts_knit$set(base.dir = "C:/Users/Buntoss/Documents/GitHub/GovHack2019",
-                     base.url = "/")
+# knitr::opts_knit$set(base.dir = "C:/Users/Buntoss/Documents/GitHub/GovHack2019",
+#                      base.url = "/")
 knitr::opts_chunk$set(fig.path = "plots/",
   echo = FALSE, message = FALSE, warning = FALSE)
 source('Attributes_Insolvent_Debtors_analysis.R')
