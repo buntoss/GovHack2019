@@ -1,7 +1,5 @@
 ---
-title: "Project: The Easy Way Out"
-author: "Created by Victoria Luu, Sean Xiang, Tylor Bunting, Roger Li, Pegah Ebrahimi"
-date: "Govhack 2019 6th - 8th Semptember 2019"
+title: "GovHack2019: Making Bankruptcy Easier Challenge"
 output: html_document
 ---
 
@@ -14,10 +12,9 @@ knitr::opts_chunk$set(fig.path = "plots/",
 source('Attributes_Insolvent_Debtors_analysis.R')
 ```
 
-### Challenge: Making Bankruptcy Easier
 The aim of this challenge was to make it easier for individuals to tell the government their income and assets when they become bankrupt. Filing for bankruptcy can be stressful for people. This already difficult time becomes increasingly overwhelming when you're faced with an extended form (65 pages) asking you about the entirety of your financial situation.
 
-'The Easier Way Out' project aims at making it simpler for applicants to complete the application and easier to provide their income and asset information. Our solution is two-folds:
+Our 'Easier Way Out' solution aims to make it simpler for applicants to complete bankruptcy forms which in turn makes it easier for them to provide their income and asset information. Our solution is two-folds:
 
 1. Digitising the form (i.e. debtor's petition).
 
@@ -27,17 +24,17 @@ The aim of this challenge was to make it easier for individuals to tell the gove
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8UYDWFm0E4Y" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<b>Eligibility:</b> Must use Attributes of insolvent debtors Dataset
+<b>Team Members:</b> Victoria Luu, Sean Xiang, Tylor Bunting, Roger Li, Pegah Ebrahimi
 
-<b>Entry:</b> Challenge entry is avilable to all teams in Australia.
+<b>Entry:</b> Challenge entry was avilable to all teams in Australia.
+
+<b>Eligibility:</b> Must use Attributes of insolvent debtors Dataset
 
 <b>Datasets used for our Project:</b> 
 
 * <a href = "https://data.gov.au/data/dataset/attributes-of-insolvent-debtors">Attributes of insolvent debtors data</a>
 * <a href = "https://data.gov.au/data/dataset/taxation-statistics-2016-17/resource/bfa7ef04-e9f2-46ff-a959-84f005dfd17b">Australian Taxation Office Data</a>
 * <a href = "https://data.gov.au/dataset/ds-dga-f3b38bb0-60fb-4faa-993a-10fdef85b48c/details"> Department of Social Services Welfare data</a>
-
-### Analysis of Insolvency Reports by State
 
 ```{r fig.height=3}
 Analysis$Plots$Attributes_Insolvency_by_State
@@ -64,8 +61,6 @@ Analysis$Plots$Attributes_Insolvency_by_State_n_Situation
 
 ```
 
-### Analysis of Insolvency Reports by SA3
-
 ```{r fig.height=3}
 Analysis$Plots$Attributes_Insolvency_by_SA3
 
@@ -76,16 +71,13 @@ Analysis$Plots$Attributes_Insolvency_by_SA3_n_State
 
 ```
 
-### Analysis of Insolvency Reports by Over Time
-
 ```{r fig.height=3}
 Analysis$Plots$Attributes_Insolvency_by_Year_n_State
 
 ```
 
-### Analysis of Insolvency Reports by Jobs
-
 ```{r fig.height=5}
 Analysis$Plots$Attributes_Insolvency_by_Job_n_State
 
 ```
+
