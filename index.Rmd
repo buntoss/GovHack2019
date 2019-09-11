@@ -23,7 +23,9 @@ The aim of this challenge was to make it easier for individuals to tell the gove
 
 2. Using algorithms and statistical modelling to pre-populate form fields based on documents and information provided by the applicant (e.g. bank statements, superannuation statements, property statements, etc.).
 
+<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8UYDWFm0E4Y" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <b>Eligibility:</b> Must use Attributes of insolvent debtors Dataset
 
