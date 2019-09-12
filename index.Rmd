@@ -1,6 +1,9 @@
 ---
 title: "GovHack2019: Making Bankruptcy Easier Challenge"
-output: html_document
+output: 
+  html_document:
+    css: styles.css
+  
 ---
 
 ```{r setup, include=FALSE}
@@ -20,7 +23,7 @@ Our 'Easier Way Out' solution aims to make it simpler for applicants to complete
 
 2. Using algorithms and statistical modelling to pre-populate form fields based on documents and information provided by the applicant (e.g. bank statements, superannuation statements, property statements, etc.).
 
-<video style="width:100%; height:auto;" src="https://www.youtube.com/embed/8UYDWFm0E4Y" frameborder="0" allowfullscreen></video>
+<div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/8UYDWFm0E4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 <b>Team Members:</b> Victoria Luu, Sean Xiang, Tylor Bunting, Roger Li, Pegah Ebrahimi
 
