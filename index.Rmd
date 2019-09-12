@@ -26,9 +26,13 @@ Our 'Easier Way Out' solution aims to make it simpler for applicants to complete
 
 2. Using algorithms and statistical modelling to pre-populate form fields based on documents and information provided by the applicant (e.g. bank statements, superannuation statements, property statements, etc.).
 
-<iframe width="360" height="215" src="https://www.youtube.com/embed/8UYDWFm0E4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href = "https://www.youtube.com/watch?v=8UYDWFm0E4Y">
+![The Solution](C:\Users\tbun2893\Documents\GitHub\GovHack2019\img\solution.png)
+</a>
 
 <b>Github Submission:</b> https://github.com/buntoss/GovHack2019
+
+<b>Video Submission:</b> https://youtu.be/8UYDWFm0E4Y
 
 <b>Team Members:</b> Victoria Luu, Sean Xiang, Tylor Bunting, Roger Li, Pegah Ebrahimi
 
