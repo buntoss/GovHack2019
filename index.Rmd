@@ -14,7 +14,11 @@ knitr::opts_chunk$set(fig.path = "plots/",
 source('Attributes_Insolvent_Debtors_analysis.R')
 ```
 
+<b>The Challenge</b>
+
 The aim of this challenge was to make it easier for individuals to tell the government their income and assets when they become bankrupt. Filing for bankruptcy can be stressful for people. This already difficult time becomes increasingly overwhelming when you're faced with an extended form (65 pages) asking you about the entirety of your financial situation.
+
+<b>The Solution</b>
 
 Our 'Easier Way Out' solution aims to make it simpler for applicants to complete bankruptcy forms which in turn makes it easier for them to provide their income and asset information. Our solution is two-folds:
 
@@ -22,17 +26,17 @@ Our 'Easier Way Out' solution aims to make it simpler for applicants to complete
 
 2. Using algorithms and statistical modelling to pre-populate form fields based on documents and information provided by the applicant (e.g. bank statements, superannuation statements, property statements, etc.).
 
-<div align = "center">
-<iframe width="360" height="215" src="https://www.youtube.com/embed/8UYDWFm0E4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<a href = "https://www.youtube.com/watch?v=8UYDWFm0E4Y">
+![The Solution](C:\Users\tbun2893\Documents\GitHub\GovHack2019\img\solution.png)
+</a>
+
+<b>Github Submission:</b> https://github.com/buntoss/GovHack2019
 
 <b>Team Members:</b> Victoria Luu, Sean Xiang, Tylor Bunting, Roger Li, Pegah Ebrahimi
 
-<b>Entry:</b> Challenge entry was avilable to all teams in Australia.
+<b>Entry:</b> Challenge entry was avilable to all teams in Australia
 
 <b>Eligibility:</b> Must use Attributes of insolvent debtors Dataset
-
-<b>Github Submission:</b> https://github.com/buntoss/GovHack2019
 
 <b>Datasets used for our Project:</b> 
 
