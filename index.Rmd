@@ -22,7 +22,9 @@ Our 'Easier Way Out' solution aims to make it simpler for applicants to complete
 
 2. Using algorithms and statistical modelling to pre-populate form fields based on documents and information provided by the applicant (e.g. bank statements, superannuation statements, property statements, etc.).
 
-<div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/8UYDWFm0E4Y" frameborder="0" allowfullscreen></iframe></div>
+<div align = "center">
+<iframe width="360" height="215" src="https://www.youtube.com/embed/8UYDWFm0E4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <b>Team Members:</b> Victoria Luu, Sean Xiang, Tylor Bunting, Roger Li, Pegah Ebrahimi
 
