@@ -21,7 +21,7 @@ Our 'Easier Way Out' solution aims to make it simpler for applicants to complete
 2. Using algorithms and statistical modelling to pre-populate form fields based on documents and information provided by the applicant (e.g. bank statements, superannuation statements, property statements, etc.).
 
 <div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8UYDWFm0E4Y" frameborder="0" allowfullscreen></iframe>
+<iframe width="215" height="215" src="https://www.youtube.com/embed/8UYDWFm0E4Y" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <b>Team Members:</b> Victoria Luu, Sean Xiang, Tylor Bunting, Roger Li, Pegah Ebrahimi
@@ -29,6 +29,8 @@ Our 'Easier Way Out' solution aims to make it simpler for applicants to complete
 <b>Entry:</b> Challenge entry was avilable to all teams in Australia.
 
 <b>Eligibility:</b> Must use Attributes of insolvent debtors Dataset
+
+<b>Github Submission:</b> https://github.com/buntoss/GovHack2019
 
 <b>Datasets used for our Project:</b> 
 
